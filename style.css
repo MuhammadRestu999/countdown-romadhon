@@ -1,0 +1,12 @@
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+body {
+  color: #ffffff;
+  background: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
