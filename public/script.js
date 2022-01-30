@@ -1,12 +1,12 @@
 let countDownDate = new Date("2022-04-03 03:00:01").getTime();
 
-let x = setInterval(function() {
+function start() {
   let now = new Date().getTime();
   let distance = countDownDate - now;
 
   if(distance < 0) {
     clearInterval(x);
-    throw "NotError: 00, 00:00:00"
+    throw "Anu\nCuma untuk berhentiin countdown :v"
   }
 
   let days = String(Math.floor(distance / (1000 * 60 * 60 * 24)));
@@ -18,5 +18,6 @@ let x = setInterval(function() {
   h.innerHTML = hours.padStart(2, "0")
   m.innerHTML = minutes.padStart(2, "0")
   s.innerHTML = seconds.padStart(2, "0")
+}
 
-}, 100);
+global.x = setInterval(start, 100);

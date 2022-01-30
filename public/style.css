@@ -6,7 +6,7 @@ p {
 
 body {
   color: #ffffff;
-  background: url("bg.jpg");
+  background: url("https://countdown-romadhon.herokuapp.com/bg.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
 }
