@@ -1,6 +1,6 @@
 let countDownDate = new Date("2022-04-03 03:00:01").getTime();
 
-function start() {
+let x = setInterval(function() {
   let now = new Date().getTime();
   let distance = countDownDate - now;
 
@@ -18,6 +18,4 @@ function start() {
   h.innerHTML = hours.padStart(2, "0")
   m.innerHTML = minutes.padStart(2, "0")
   s.innerHTML = seconds.padStart(2, "0")
-}
-
-global.x = setInterval(start, 100);
+}, 100)
