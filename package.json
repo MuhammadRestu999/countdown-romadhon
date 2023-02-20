@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/MuhammadRestu999/countdown-romadhon#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "morgan": "^1.10.0"
   }
 }

@@ -1,7 +1,8 @@
-let express = require("express");
-let app = express();
-let path = require("path");
+const express = require("express");
+const morgan = require("morgan");
+const app = express();
 
+app.use(morgan("dev"));
 app.use(express.static("public"));
 app.set("port", process.env.PORT || 8000);
 
